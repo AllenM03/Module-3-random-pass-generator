@@ -33,23 +33,3 @@
 
     The Coding Conglomerate
     Allen McBroom Bey.
-
-## License
-
-- N/A
-
-## Badges
-
-- N/A
-
-## Features
-
-- N/A
-
-## How to Contribute
-
-- N/A
-
-## Tests
-
-- N/A
