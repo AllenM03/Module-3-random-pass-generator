@@ -7,7 +7,7 @@
 
     * The focus of this project is to make this application generate a random password between 8 to 128 characters using Javascript. This was based on a set of user criteria of letters, numbers, and symbols. 
     
-    * Letters cannot be used when the screen prompts the user "how long is the password", as well as if a number less than 8 or greater than 128 characters is chosen a screen prompt is given and the user will start over.
+    * Letters cannot be used when the screen prompts the user "how long is the password", as well as if a number less than 8 or greater than 128 characters is chosen, a screen prompt is given and the user will start over.
 
     * It starts with clicking on the "generate password" button and a series of questions are asked as stated above. The creation of this page is very simple and helpful when needing a quick password to copy and paste into your new login site. 
     
