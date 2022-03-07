@@ -1,48 +1,55 @@
-# 03 JavaScript: Password Generator
+# Password Generator Project
 
-Create an application that generates a random password based on user-selected criteria. The app runs in the browser and features dynamically updated HTML and CSS powered by your JavaScript code. It has a clean and polished user interface and is responsive, which ensures that it adapts to multiple screen sizes.
+## Javascript, HTML, and CSS
 
-If you are unfamiliar with special characters, take a look at some [examples of special characters on the OWASP Foundation website](https://www.owasp.org/index.php/Password_special_characters).
 
-## User Story
+### Description
 
-```
-AS AN employee with access to sensitive data
-I WANT to randomly generate a password that meets certain criteria
-SO THAT I can create a strong password that provides greater security
-```
+    * The focus of this project is to make this application generate a random password between 8 to 128 characters using Javascript. This was based on a set of user criteria of letters, numbers, and symbols. 
+    
+    * Letters cannot be used when the screen prompts the user "how long is the password", as well as if a number less than 8 or greater than 128 characters is chosen a screen prompt is given and the user will start over.
 
-## Acceptance Criteria
+    * It starts with clicking on the "generate password" button and a series of questions are asked as stated above. The creation of this page is very simple and helpful when needing a quick password to copy and paste into your new login site. 
+    
 
-```
-GIVEN I need a new, secure password
-WHEN I click the button to generate a password
-THEN I am presented with a series of prompts for password criteria
-WHEN prompted for password criteria
-THEN I select which criteria to include in the password
-WHEN prompted for the length of the password
-THEN I choose a length of at least 8 characters and no more than 128 characters
-WHEN prompted for character types to include in the password
-THEN I choose lowercase, uppercase, numeric, and/or special characters
-WHEN I answer each prompt
-THEN my input should be validated and at least one character type should be selected
-WHEN all prompts are answered
-THEN a password is generated that matches the selected criteria
-WHEN the password is generated
-THEN the password is either displayed in an alert or written to the page
-```
 
-The following image demonstrates the application functionality:
+## What We Learned
 
-![An app window with the label Password Generator, an input field labeled Your Secure Password, and a Generate Password button.](./Assets/03-javascript-homework-demo.png)
+    * The various functions helped drive this application to make it successful such as the randomInt(min,max) on line 4. These functions work in conjunction with line 9 variable and line 13 function to work with the for loop on line 74 to generate a random password. These tell which list to pull from and gives it a random order. 
 
-## Review
+    * The If statements are there to define the different scenarios of when and what the user inputs and the application will confirm the correct response or deny the incorrect responses based on the guidelines of the application.
 
-You are required to submit the following for review:
+    * We learned to define many variables for this application such as the uppercase and lowercase letters, numbers 0 - 9, and symbols as well as variables to prompt the user to select what type of characters they want.
 
-* The URL of the deployed application.
+    * The true or false statements were key in creating the functionality of this application. When the window prompts the user to select a character, Ok confirms the selection and Cancel denies it.
+	 
+    * If no character option is selected then a password of just all uppercase letters is generated. An else statement can replace the if statement on line 64 to force the user to have to choose at least one character option. This is can be added for the client in case they would like to explore this further.
 
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
+## Installation
 
-- - -
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+    -The user may open this project on any device with a web browser and standard internet connection and is responsive with different screen sizes.
+
+## Credits
+
+    The Coding Conglomerate
+    Allen McBroom Bey.
+
+## License
+
+- N/A
+
+## Badges
+
+- N/A
+
+## Features
+
+- N/A
+
+## How to Contribute
+
+- N/A
+
+## Tests
+
+- N/A
